@@ -1,6 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: inherit;
 }
 
 header,
@@ -38,4 +43,25 @@ p {
     margin: 40px auto;
     border: 5px solid grey;
     box-shadow: 5px 10px darkgrey;
+}
+
+nav {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 10%;
+    padding: 0 40px;
+    border: 5px solid grey;
+    box-shadow: 5px 10px darkgrey;
+}
+
+ol {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
